@@ -1,0 +1,236 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 2px black;
+  margin: 0 -25px;
+  padding: 5 30px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  height: 5rem;
+  font-family: arial;
+}
+/*per cambiare background color al header va cambiata header img perche ha background white*/
+#header-img{
+  width: 80px;
+}
+#logo-head{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 30px
+}
+#nav-bar{
+  position: relative;
+  right: 30px
+}
+
+#nav-bar a{
+  text-decoration: none;
+  color: black;
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 10px
+}
+
+#nav-bar a:hover{
+  background-color: silver;
+}
+
+
+body{
+  position: relative;
+  background-color: gainsboro;
+  font-family: arial
+}
+.how{
+  border: 1px solid grey;
+  margin: 20px 0;
+  padding: 0 15px;
+  border-radius: 20px;
+  background-color: whitesmoke
+}
+#email{
+  width: 80%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 5px;
+  border: solid 2px #606060
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid grey;
+  width: 65%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: whitesmoke
+}
+
+input[type="submit"]{
+  width: 50%;
+  border: solid 2px #606060;
+  background-color: white;
+  border-radius: 5px
+}
+
+
+.bike-logo{
+  width: 50px;
+  margin: 10px 10px
+}
+
+.bold{
+  font-weight: 550
+}
+
+iframe{
+  border-radius: 10px;
+  width: 450;
+  height: 250;
+  display: block;
+  margin: 20px auto -5px auto
+}
+#frame-comment{
+  text-align: center; 
+}
+
+section:not(.price-section){
+  width: 65%;
+  margin: 60px auto;
+  scroll-margin-top: 6rem;
+}
+#form h2{
+  width: 90%;
+}
+section h2{
+  text-align: center;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
+  border-radius: 10px
+}
+
+.how h4{
+  margin-bottom: -5px;
+  font-size: 17
+
+}
+.how p{
+  margin-left: 5px
+}
+
+.why{
+  border: 1px solid grey;
+  margin: 20px 0;
+  padding: 0 15px;
+  border-radius: 20px;
+  background-color: whitesmoke
+}
+#manufacturers{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  scroll-margin-top: 5rem
+}
+#manufacturers p{
+  margin-top: -3px
+}
+
+.text-img{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.pricing-introduction{
+  text-align: center
+}
+.price-section{
+  width: 125%;
+  padding: 0;
+  margin-top: 40px;
+  scroll-margin-top: 5rem;
+  }
+.price-div{
+  width: 100%;
+  display: flex;
+  padding: 0;
+  justify-content: space-evenly;
+  flex-wrap: wrap
+}
+.price{
+  width: 190px;
+  border: 1px solid;
+  margin: 15px 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  background-color: whitesmoke
+  
+}
+
+.price:hover{
+  background-color: white
+}
+.price hr{
+  width: 190px;
+  margin-left: -10px;
+  margin-bottom: 20px;
+  margin-top: 15px
+}
+
+.moto-img{
+  width: 150px;
+}
+.gs{
+  margin: -28px 0;
+}
+footer{
+  position: absolute;
+  bottom: -70px;
+  right: 10px;
+  font-family: sans;
+}
+.footer-border{
+  border-bottom: 2px solid black;
+  height: 0;
+  width: 200%;
+  margin-top: 25px;
+  margin-bottom: -10px;
+}
+
+@media only screen and (max-width: 100px){
+  body{
+    font-family: sans
+  }
+}
+/* aggiungere media query in cui con schermo piu grande la percentuale% width delle section rispetto al body diminuisce*/
+
+/*aggiungere media query dove i tre pricing sotto una certa display width vengono incolonnati*/
+
+/*!!!!! media query non funzionano!!!!*/
+
+** end of undefined **
+
